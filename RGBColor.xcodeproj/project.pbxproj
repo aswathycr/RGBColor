@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238B0A691E2F153000B08124 /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238B0A671E2F153000B08124 /* CircleView.h */; };
+		238B0A6A1E2F153000B08124 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238B0A681E2F153000B08124 /* CircleView.m */; };
 		23BC09A31E2DD7B40075624F /* RGBColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BC09991E2DD7B40075624F /* RGBColor.framework */; };
 		23BC09A81E2DD7B40075624F /* RGBColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC09A71E2DD7B40075624F /* RGBColorTests.swift */; };
 		23BC09AA1E2DD7B40075624F /* RGBColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BC099C1E2DD7B40075624F /* RGBColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		238B0A671E2F153000B08124 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		238B0A681E2F153000B08124 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		23BC09991E2DD7B40075624F /* RGBColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGBColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BC099C1E2DD7B40075624F /* RGBColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBColor.h; sourceTree = "<group>"; };
 		23BC099D1E2DD7B40075624F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				23BC099C1E2DD7B40075624F /* RGBColor.h */,
 				23BC099D1E2DD7B40075624F /* Info.plist */,
 				23BC09B31E2DD7BD0075624F /* RGB.swift */,
+				238B0A671E2F153000B08124 /* CircleView.h */,
+				238B0A681E2F153000B08124 /* CircleView.m */,
 			);
 			path = RGBColor;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BC09AA1E2DD7B40075624F /* RGBColor.h in Headers */,
+				238B0A691E2F153000B08124 /* CircleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B0A6A1E2F153000B08124 /* CircleView.m in Sources */,
 				23BC09B41E2DD7BD0075624F /* RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +412,7 @@
 				23BC09AF1E2DD7B40075624F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BC09B01E2DD7B40075624F /* Build configuration list for PBXNativeTarget "RGBColorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +421,7 @@
 				23BC09B21E2DD7B40075624F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
