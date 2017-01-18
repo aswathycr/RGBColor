@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		238B0A691E2F153000B08124 /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238B0A671E2F153000B08124 /* CircleView.h */; };
+		238B0A691E2F153000B08124 /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238B0A671E2F153000B08124 /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238B0A6A1E2F153000B08124 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238B0A681E2F153000B08124 /* CircleView.m */; };
 		23BC09A31E2DD7B40075624F /* RGBColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BC09991E2DD7B40075624F /* RGBColor.framework */; };
 		23BC09A81E2DD7B40075624F /* RGBColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC09A71E2DD7B40075624F /* RGBColorTests.swift */; };
@@ -235,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -288,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -333,6 +335,7 @@
 		23BC09AE1E2DD7B40075624F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -353,6 +356,7 @@
 		23BC09AF1E2DD7B40075624F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -373,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = RGBColorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cabot.RGBColorTests;
@@ -385,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = RGBColorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cabot.RGBColorTests;
